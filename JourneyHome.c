@@ -1,10 +1,15 @@
 /*
 A. Journey Home
-time limit per test1 second
-memory limit per test256 megabytes
-inputstandard input
-outputstandard output
-Odysseus is trying to find his way home, after he got a little bit lost after going out on a journey. Sadly, he finds that he's struggling quite a bit, partly because some gods are upset at him. As it turns out, there are lots of locations in the world numbered by the positive integers, and the gods have decided the following rules for Odysseus's route. For simplicity, let us denote a location by the number it is at. If Odysseus's location n is even, his next step will be location n2. If Odysseus's location n is odd, his next step will be location 3n+1. Now, given his starting location s, determine how many steps it will take for Odysseus to reach home, which is location 1.
+time limit per test:1 second
+memory limit per test:256 megabytes
+input:standard input
+output:standard output
+Odysseus is trying to find his way home, after he got a little bit lost after going out on a journey. 
+Sadly, he finds that he's struggling quite a bit, partly because some gods are upset at him. 
+As it turns out, there are lots of locations in the world numbered by the positive integers, and the gods have decided the following rules for Odysseus's route. 
+For simplicity, let us denote a location by the number it is at. If Odysseus's location n is even, his next step will be location n2. 
+If Odysseus's location n is odd, his next step will be location 3n+1. 
+Now, given his starting location s, determine how many steps it will take for Odysseus to reach home, which is location 1.
 
 Input
 A single integer s(1≤s≤100), Odysseus' starting location.
